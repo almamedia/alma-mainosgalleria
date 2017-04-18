@@ -1,0 +1,68 @@
+// Font-faces fetched from Almamedia main site
+// NOTE: currently these aren't used anywhere, so they could be removed from the project totally.
+// I've left them here for now just in case.
+@font-face {
+  font-family: 'PFDinTextPro-Regular';
+  src: url("/assets/fonts/2351EF_0_0.eot");
+  src: url("/assets/fonts/2351EF_0_0.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/2351EF_0_0.woff") format("woff"), url("/assets/fonts/2351EF_0_0.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'PFDinTextPro-Medium';
+  src: url("/assets/fonts/2351EF_1_0.eot");
+  src: url("/assets/fonts/2351EF_1_0.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/2351EF_1_0.woff") format("woff"), url("/assets/fonts/2351EF_1_0.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'PFDinTextPro-Bold';
+  src: url("/assets/fonts/2351EF_2_0.eot");
+  src: url("/assets/fonts/2351EF_2_0.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/2351EF_2_0.woff") format("woff"), url("/assets/fonts/2351EF_2_0.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'PFAdamantPro-Regular';
+  src: url("/assets/fonts/2351EF_3_0.eot");
+  src: url("/assets/fonts/2351EF_3_0.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/2351EF_3_0.woff") format("woff"), url("/assets/fonts/2351EF_3_0.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'PFAdamantPro-Bold';
+  src: url("/assets/fonts/2351EF_4_0.eot");
+  src: url("/assets/fonts/2351EF_4_0.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/2351EF_4_0.woff") format("woff"), url("/assets/fonts/2351EF_4_0.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'PFAdamantPro-Light';
+  src: url("/assets/fonts/2351EF_5_0.eot");
+  src: url("/assets/fonts/2351EF_5_0.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/2351EF_5_0.woff") format("woff"), url("/assets/fonts/2351EF_5_0.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'PFAdamantPro-SemiBold';
+  src: url("/assets/fonts//2351EF_6_0.eot");
+  src: url("/assets/fonts/2351EF_6_0.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/2351EF_6_0.woff") format("woff"), url("/assets/fonts/2351EF_6_0.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'PFDinTextPro-Thin';
+  src: url("/assets/fonts/2351EF_7_0.eot");
+  src: url("/assets/fonts/2351EF_7_0.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/2351EF_7_0.woff") format("woff"), url("/assets/fonts/2351EF_7_0.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'PFDinTextPro-Light';
+  src: url("/assets/fonts/24B2BC_0_0.eot");
+  src: url("/assets/fonts/24B2BC_0_0.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/24B2BC_0_0.woff") format("woff"), url("/assets/fonts/24B2BC_0_0.ttf") format("truetype");
+}
+
+body {
+  font-family: 'GalanoGrotesqueAlt-Regular', 'Century Gothic', 'Arial', 'Helvetica';
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'GalanoGrotesqueAlt-Light', 'Century Gothic', 'Arial', 'Helvetica';
+}
+
+p {
+  font-family: 'GalanoGrotesqueAlt-Light', 'Century Gothic', 'Arial', 'Helvetica';
+}

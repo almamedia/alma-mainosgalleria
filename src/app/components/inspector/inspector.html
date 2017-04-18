@@ -1,0 +1,50 @@
+<div class="inspector__wrapper" ng-controller="InspectorCtrl" ng-init="init()">
+
+  <div class="page-content__wrapper--upper">
+    <div id="advertisement__wrapper" ng-style="adStyles"></div>
+    <div class="general-content__wrapper">
+      <h3 class="punchline" ng-show="ad.punchline">{{ad.punchline}}</h3>
+    </div>
+  </div>
+
+  <div class="page-content__wrapper">
+    <div class="general-content__wrapper">
+      <div data-alert class="alert-box alert" ng-show="adLoadingFailed">
+        Valitettavasti tätä mainostyyppiä ei pystytä esittämään laitteellasi.
+      </div>
+
+
+
+      <div class="inspector__description--wrapper">
+        <p class="inspector__description" ng-repeat="description in ad.description">{{description}}</p>
+      </div>
+
+
+      <table class="inspector__instructions" ng-show="ad.instructions">
+        <thead>
+          <tr>
+            <th colspan="2">
+              <h4 class="inspector__instructions--title">Aineisto-ohjeet: {{ad.name}}</h4>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr
+            ng-repeat="title in notSorted(ad.instructions)"
+            ng-init="content = ad.instructions[title]">
+            <td>
+              <h6 class="instructions__title">{{title}}</h6>
+              <span class="instructions__content">{{content}}</span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+
+      <div class="inspector-footer__wrapper">
+        <p>Onko tässä Sinun mainosratkaisusi? <a ng-href="mailto:{{contactEmail}}?subject={{ad.name}} -mainospaikka&body=Hei, kiinnostuin {{ad.name}} -mainospaikastanne osoitteessa {{absUrl}}!">Lähetä meille sähköpostia!</a></p>
+      </div>
+
+    </div>
+  </div>
+</div>

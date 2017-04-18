@@ -1,0 +1,30 @@
+.page-content__wrapper--upper {
+  background-color: $white;
+  padding: 15px 10px;
+
+  h1 { text-transform: uppercase; }
+}
+
+.page-content__wrapper {
+  padding: 10px;
+}
+
+.general-content__wrapper {
+  width: 100%;
+  max-width: 600px;
+  margin: 10px auto;
+}
+
+
+.punchline {
+  @extend .general-content__wrapper;
+
+  background-color: $purple;
+  color: $white;
+
+  display: inline;
+  padding: 0.2em;
+  line-height: 2.000em;
+}
+
+.landing__image { width: 100%; }

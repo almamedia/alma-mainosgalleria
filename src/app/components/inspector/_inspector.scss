@@ -1,0 +1,52 @@
+#advertisement__wrapper {
+  margin: 10px auto 20px auto;
+
+  iframe { margin: 0 auto; }
+}
+
+
+.alert-box.alert { background-color: $red; }
+
+.inspector__description--wrapper {
+  margin-top: 20px;
+}
+
+// table for the ad instructions
+.inspector__wrapper table { width: 100%; } // override the fluidness implemented by Foundation
+.inspector__wrapper table thead tr { background-color: $brown-dark; }
+table.inspector__instructions {
+  margin: 20px auto;
+}
+
+// the table title
+.inspector__instructions--title {
+  padding: 10px 0 0 45px;
+
+  background-image: url(/assets/images/icon-lightbulb-black.png);
+  background-position: center left;
+  background-repeat: no-repeat;
+}
+
+.instructions__title { font-weight: bold; }
+
+
+// "footer"
+.inspector-footer__wrapper {
+  border-top: 1px solid $brown;
+  padding: 2px 45px 2px 5px;
+
+  background-image: url(/assets/images/alma-logo-black.png);
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: 30px;
+
+  font-style: italic;
+
+  p {
+    font-size: 0.8em;
+    display: block;
+    margin-top: 20px;
+  }
+  a { color: $purple; }
+}
+

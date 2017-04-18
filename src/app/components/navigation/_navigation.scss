@@ -1,0 +1,30 @@
+// # Top navbar
+//
+nav.tab-bar {
+  background: $gray-dark;
+}
+
+.navigation-title__wrapper {
+  height: 45px; // the height of the top nav bar
+}
+
+.navigation-title__logo {
+  height: 60%;
+  display: inline-block;
+  margin-bottom: 4px;
+  margin-right: 5px;
+}
+
+.navigation-title {
+  display: inline-block;
+}
+
+
+
+// # Left-side navbar
+//
+.navigation-left__wrapper {
+  li {
+    font-family: 'PFDinTextPro-Light', sans-serif;
+  }
+}

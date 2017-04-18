@@ -1,0 +1,16 @@
+<ul class="off-canvas-list navigation-left__wrapper" ng-controller="NavigationCtrl">
+  <li><a ng-href="#/">
+    <img src="/assets/images/icon-home.png" alt="Koti-ikoni">Etusivu
+  </a></li>
+  <li><a ng-href="#/yhteystiedot">
+    <img src="/assets/images/icon-contact.png" alt="Yhteystiedot-ikoni">Yhteystiedot
+  </a></li>
+
+  <li ng-repeat-start="categoryName in notSorted(adLinks)"
+      ng-init="category = adLinks[categoryName]">
+      <label>Mainokset: {{categoryName}}</label>
+  </li>
+  <li ng-repeat-end ng-repeat="ad in category">
+      <a ng-href="#/mainos/{{ad.name}}">{{ad.name}}</a>
+  </li>
+</ul>
