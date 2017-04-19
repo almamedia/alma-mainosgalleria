@@ -115,17 +115,6 @@ window.almaAdData = [
       ]
    },
    {
-      "name":"Video interstitiaali",
-      "madsId":142246,
-      "category":"Erikoistoteutus",
-      "loadViaIframe":true,
-      "width":300,
-      "height":300,
-      "description":[
-         "Koko ruudun kokoinen responsiivinen videoformaatti, jossa video lähtee automaattisesti pyörimään. Mainos aukeaa automaattisesti kun käyttäjä saapuu sivustolle. Interstitiaaliin saa videon lisäksi linkin sekä FB ja Twitter jakopainikkeet.Interstitiaaliin laitetaan aina toistorajoite."
-      ]
-   },
-   {
       "name":"Tablet swipe",
       "madsId":135719,
       "category":"Tablet",
